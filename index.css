@@ -1,0 +1,186 @@
+.offer{
+color:black;
+text-decoration: underline;
+background: linear-gradient(
+    to right,
+    red,
+    green,
+    yellow
+);
+}
+.list{
+    width:500px;
+    height:70px;
+    background-color:cadetblue;
+    border: 2px solid red;
+    border-radius: 10px;
+    list-style-position:inside;
+    justify-content: center;
+    margin: 0 250px 0 250px;
+    padding: 0px 0px 0px 325px;
+}
+.flex-container{
+    width: 100%;
+    height:185px;
+    background-color: aqua;
+    border:1px solid gray;
+    border-radius: 10px;
+    display: flex;
+}
+.flex-item1{
+    width:400px;
+    height: 90px;
+    border: 2px solid green;
+    border-radius:10px ;
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+.flex-item2{
+    width:400px;
+    height: 90px;
+    border: 2px solid green;
+    border-radius:10px ;
+    display: flex;
+    position: relative;
+    left:160px;
+}
+.flex-item3{
+    width:400px;
+    height: 90px;
+    border: 2px solid green;
+    border-radius:10px ;
+    display: flex;
+    position: relative;
+    left:310px;
+}
+.flex-item4{
+    width:400px;
+    height: 90px;
+    border: 2px solid green;
+    border-radius:10px ;
+    display: flex;
+    position: relative;
+    top:92px;
+    right: 505px;
+}
+.top{
+    color:black;
+    text-decoration: underline;
+    background: linear-gradient(
+        to right,
+        red,
+        orange,
+        red
+    );
+}
+.parent{
+    width:100%;
+    height:200px;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 2px solid green;
+    background: radial-gradient(
+         
+        blue,
+        rgb(6, 65, 88),
+        rgb(19, 223, 19)
+    );
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.child1{
+    width: 200px;
+    height:100px ;
+    color:brown;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+.child2{
+    width: 200px;
+    height:100px ;
+    color:brown;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+.child3{
+    width: 200px;
+    height:100px ;
+    color:brown;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+.child4{
+    width: 200px;
+    height:100px ;
+    color:brown;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.grid-item1{
+    color:white;
+    background-color: rgb(219, 8, 43);
+    letter-spacing: 1px;
+    height: 25px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.grid-item2{
+    color:white;
+    background-color:lightgreen;
+    height: 60px;
+}
+.grid-item3{
+    color:white;
+    background-color:lightseagreen;
+    height: 60px;
+}
+.grid-item4{
+    color:white;
+    background-color:blueviolet;
+    height: 60px;
+    
+}
+.grid-item5{
+    color:white;
+    background-color:rgb(37, 43, 43);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    list-style-position: inside;
+    padding: 0px;
+    height: 230px;
+}
+.grid-item6{
+    color:white;
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 152px;
+}
+.grid-item7{
+    background-color:rgb(14, 164, 209);
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
